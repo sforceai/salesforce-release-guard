@@ -1,5 +1,7 @@
 # Verification record — 0.4.1 · 5 November 2026
 
+> Historical development evidence: old development commit IDs below are retained as receipt identifiers and are not install pins in the clean public history. Use [PUBLIC-VERIFICATION.md](PUBLIC-VERIFICATION.md) for current public installation.
+
 ## Executed
 
 - Local Python unit/integration suite: 171 tests, 170 passed and one skipped. Includes snapshot/deletion controls, connection/capture isolation, access query injection refusal, stale/incomplete/mismatched evidence, object-gated field results, inactive users, session/expired/recalculating group handling, comparison org/role binding and Salesforce's normalized 18-character computed-access user suffix.

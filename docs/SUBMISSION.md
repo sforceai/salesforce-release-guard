@@ -22,7 +22,7 @@ Generate the final entry with `python scripts/catalog_entry.py --repo https://gi
 
 ## Remaining publication steps
 
-1. Publish the source to a public repository under the entrant's account; keep runtime output and proprietary reports out of it.
+1. Use the clean public source repository; keep runtime output and proprietary reports out of it.
 2. Pin the final source commit and validate the packaged plugin against a current Hermes release.
 3. Open the catalog PR. The announcement says an open PR is sufficient to submit; maintainer acceptance remains separate.
 4. Review the prepared 70-second live demo, post it on X tagging `@NousResearch`, and retain its URL.
@@ -36,6 +36,6 @@ Version 0.4.0 adds scoped selected-user object/FLS observations and configured A
 
 ## Current presentation and admission status
 
-See `docs/REQUIREMENTS-CHECK.md` for open gates and `docs/DEMO-FILM.md` for the prepared 70-second live recording and Indian English synthetic narration. The repo is still private; no public post or submission has been made. An isolated authenticated native install passed; its bundle passed all 15 pinned-official-validator checks with a safe verdict and no admission warnings, as well as registered-handler checks. Earlier whole-source validation had a private-import warning in its operator test harness. These results do not establish a fresh dependency environment, anonymous public installation, or catalog acceptance.
+See `docs/REQUIREMENTS-CHECK.md` for open gates and `docs/DEMO-FILM.md` for the prepared 70-second live recording and Indian English synthetic narration. The clean source repository is public; no X demo post, catalog PR or form submission has been made. An isolated authenticated native install passed; its bundle passed all 15 pinned-official-validator checks with a safe verdict and no admission warnings, as well as registered-handler checks. Earlier whole-source validation had a private-import warning in its operator test harness. These results do not establish a fresh dependency environment, anonymous public installation, or catalog acceptance.
 
 Version 0.4.3 adds operator-approved custom inputs, a prominent report coverage/evidence panel, and an end-to-end first-review guide. See [verification and remaining limits](V043-IMPROVEMENTS.md).

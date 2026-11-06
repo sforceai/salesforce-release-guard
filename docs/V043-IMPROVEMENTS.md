@@ -1,5 +1,7 @@
 # v0.4.3 review improvements
 
+> Historical development evidence: old development commit IDs below are retained as receipt identifiers and are not install pins in the clean public history. Use [PUBLIC-VERIFICATION.md](PUBLIC-VERIFICATION.md) for current public installation.
+
 Custom native inputs now require operator approval of a project folder. Approval acknowledges that requested evidence/excerpts reach the selected Hermes model. The native plugin cannot grant or revoke approval. The separate full-source operator CLI writes atomic, serialized profile-local policy changes. Missing or malformed policies, sibling-folder escapes and linked paths fail closed before analysis. Built-in fictional demos remain available without sign-in or folder approval.
 
 Comparison, security and access reports now show **What was actually checked?** prominently: supplied coverage, evidence timing, selected user or absent access evidence, unassessed areas and a concrete next review step. Zero static references is explicitly scoped to supplied source. No report approves a deployment.

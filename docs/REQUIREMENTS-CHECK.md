@@ -12,7 +12,7 @@ The official [catalog admission guide](https://hermes-agent.nousresearch.com/doc
 
 The official Typeform at https://form.typeform.com/to/FwJLvOln opened with the hackathon title and a six-question submission flow. Its first required field is Plugin Title. No answers were entered or submitted. Later required fields and entrant/award terms were not inspected because navigation required an answer first.
 
-The connected GitHub API reports `sforceai/salesforce-guard` is **private**. It must be made public before catalog admission. No visibility change was performed.
+The clean publication repository is `sforceai/salesforce-guard-release`. The old development repository remains private. See [public verification](PUBLIC-VERIFICATION.md) for current results; older development pins in this document are historical receipt identifiers.
 
 ## Announcement requirements: provenance matters
 
@@ -27,7 +27,7 @@ The original X page returned an access error during this check, so the deadline 
 | Original source, nine tools and one tool-control hook | Built; native runtime tested |
 | Windows/Linux Python 3.11/3.12 CI | Passed on merged v0.4.1 |
 | Fictional live org and security fixtures | Scoped checks passed; raw evidence private |
-| Public repository | Blocked until owner authorizes visibility change |
+| Public repository | Clean source publication authorized; verify current status in PUBLIC-VERIFICATION.md |
 | Catalog admission checks | Freshly installed native bundle passed 15 checks with the pinned official validator: scan safe, no admission warnings. Existing runtime; not fresh `--install-deps`, anonymous public installation or maintainer acceptance |
 | Model-driven Hermes user demonstration | Passed with native tools in the dedicated review profile; fresh run recorded |
 | Polished report UI | New offline design prepared; browser verification recorded separately |

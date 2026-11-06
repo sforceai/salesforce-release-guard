@@ -1,5 +1,7 @@
 # Demo films
 
+> Historical development evidence: old development commit IDs below are retained as receipt identifiers and are not install pins in the clean public history. Use [PUBLIC-VERIFICATION.md](PUBLIC-VERIFICATION.md) for current public installation.
+
 ## Current story edition — 88 seconds
 
 `deliverables/Salesforce-Guard-v043-Story-Indian-English.mp4` adds a plain-language opening: before removing a wall, check what depends on it; Salesforce Guard helps review what a release could affect. The metaphor introduces a question, not a guarantee that static analysis predicts breakage. The exact fictional deletion, caller and access evidence follows unchanged.

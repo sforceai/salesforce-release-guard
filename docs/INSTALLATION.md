@@ -11,10 +11,10 @@ Use that dedicated profile with no live org credentials or competing policy hook
 One install command, pinned to the tested development version:
 
 ```text
-hermes --profile salesforce-guard-review plugins install https://github.com/sforceai/salesforce-guard#hermes-plugin --ref 811323f502d1b4b3ee7a77d4120d30e062d87eb9 --enable
+hermes --profile salesforce-guard-review plugins install https://github.com/sforceai/salesforce-guard-release#hermes-plugin --ref bb14a41aa90f68b2a9a45c5ee61cfe8a41773ece --enable
 ```
 
-Desktop's Install from Git accepts the same repository fragment. Select the review profile and a reviewed full commit. Do not change repository visibility to resolve authentication. A private repository needs GitHub authentication on the installing computer. Model sign-in is separate and profile-specific.
+Desktop's Install from Git accepts the same repository fragment. Select the review profile and a reviewed full commit. This release repository is public and should clone without GitHub authentication. Model sign-in is separate and profile-specific.
 
 Open the review profile after installation, then paste this demo request:
 
@@ -24,13 +24,9 @@ Expected fixture results: 1 new, 2 modified, 1 destructive, 1 unchanged; 2 stati
 
 If a gateway already loaded an earlier version, its active policy may require a reload. A Desktop window restart alone did not reload the shared gateway in our Windows test. Do not run an unattended gateway-service setup to solve this; see [the observed restart behavior](DESKTOP-VERIFICATION.md).
 
-## What has actually been proved
+## Public release verification
 
-- Exact pinned native bundle installed and enabled in a new empty Hermes home on 6 November 2026, using existing GitHub authentication. This used the installed Hermes runtime on the current Windows host.
-- v0.4.3 installed registered-handler checks passed, including approval, rejection and revocation. The earlier real Desktop/model-driven fictional workflow is recorded separately; it was not rerun for v0.4.3.
-- **Anonymous public installation is pending:** the GitHub repository is still private. A public clone, exact-pin install and judge demo request must be repeated after the owner approves publication and the final source commit is selected.
-
-The development pin above is not a substitute for final-release validation or catalog acceptance.
+See [the public verification record](PUBLIC-VERIFICATION.md) for the clean public repository, exact runtime pin and current installation results. Older Desktop/model-driven evidence is historical and does not establish a fresh run for this public commit. Catalog acceptance remains separate.
 
 ## Why a separate bundle
 

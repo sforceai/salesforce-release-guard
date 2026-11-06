@@ -1,5 +1,7 @@
 # Hermes Desktop verification
 
+> Historical development evidence: old development commit IDs below are retained as receipt identifiers and are not install pins in the clean public history. Use [PUBLIC-VERIFICATION.md](PUBLIC-VERIFICATION.md) for current public installation.
+
 Observed on 6 November 2026 using Hermes Desktop 0.22.7 and Salesforce Guard 0.4.2, pinned to `e77f30c162f07fc2f3d76257270f9f6522139523`, in a dedicated review profile. All inputs were fictional; no live Salesforce org was accessed.
 
 ## Result

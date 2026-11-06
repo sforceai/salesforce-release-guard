@@ -17,9 +17,9 @@ Expect 1 new, 2 modified, 1 destructive and 1 unchanged component, two source ca
 On the computer holding your local captures, install Python 3.10+ and Salesforce CLI from their official sources. Obtain the full Salesforce Guard source at the same reviewed commit as the native plugin. For a Git checkout:
 
 ```console
-git clone https://github.com/sforceai/salesforce-guard.git
+git clone https://github.com/sforceai/salesforce-guard-release.git
 cd salesforce-guard
-git checkout 811323f502d1b4b3ee7a77d4120d30e062d87eb9
+git checkout bb14a41aa90f68b2a9a45c5ee61cfe8a41773ece
 python -m salesforce_guard --help
 ```
 

@@ -67,10 +67,10 @@ Use a **new review profile** with no other plugins and no live org credentials. 
 First create an empty review profile with `hermes profile create salesforce-guard-review --no-alias --no-skills`. Configure its model connection separately; do not clone org credentials into it. Then install the native bundle with this command:
 
 ```console
-hermes --profile salesforce-guard-review plugins install https://github.com/sforceai/salesforce-guard#hermes-plugin --ref 811323f502d1b4b3ee7a77d4120d30e062d87eb9 --enable
+hermes --profile salesforce-guard-review plugins install https://github.com/sforceai/salesforce-guard-release#hermes-plugin --ref bb14a41aa90f68b2a9a45c5ee61cfe8a41773ece --enable
 ```
 
-Use the reviewed hardened commit, not an older pin that predates folder approvals. The repo remains private until the owner approves publication, so GitHub authentication is currently needed. Anonymous public installation is a separate final gate. Do not install the development repository root as a native plugin; it includes adversarial tests and operator utilities. See [installation and verification details](docs/INSTALLATION.md).
+This public repository has a clean publication history attributed to the approved company contact. The command pins the reviewed native runtime; later documentation-only commits may retain this tested runtime pin. Public installation verification is recorded in [PUBLIC-VERIFICATION.md](docs/PUBLIC-VERIFICATION.md). Do not install the development repository root as a native plugin; it includes adversarial tests and operator utilities. See [installation and verification details](docs/INSTALLATION.md).
 
 In that profile, ask:
 
@@ -157,4 +157,4 @@ The source-only ZIP is generated in `dist`. See [verification notes](docs/VERIFI
 Independent community project. Not affiliated with Salesforce, OWASP or Nous Research.
 
 
-Presentation and entry preparation: [requirements and open gates](docs/REQUIREMENTS-CHECK.md) · [recorded live demo](docs/DEMO-FILM.md). An 88-second narrated story edition, earlier live-demo cuts and fictional screenshots have been prepared locally. The repository remains private; no external post or hackathon submission has been made.
+Presentation and entry preparation: [requirements and open gates](docs/REQUIREMENTS-CHECK.md) · [recorded live demo](docs/DEMO-FILM.md). An 88-second narrated story edition, earlier live-demo cuts and fictional screenshots have been prepared locally. The source repository is public; no X demo post, catalog PR or hackathon form submission has been made.
