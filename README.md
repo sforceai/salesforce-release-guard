@@ -66,6 +66,8 @@ Use a **new review profile** with no other plugins and no live org credentials. 
 
 First create an empty review profile with `hermes profile create salesforce-guard-review --no-alias --no-skills`. Configure its model connection separately; do not clone org credentials into it. Then install the native bundle with this command:
 
+For recent Hermes clients, also run `hermes --profile salesforce-guard-review config set tools.tool_search.enabled off` so the model calls the native tools directly. Guard remains enabled. See [installation](docs/INSTALLATION.md).
+
 ```console
 hermes --profile salesforce-guard-review plugins install https://github.com/sforceai/salesforce-guard-release#hermes-plugin --ref bb14a41aa90f68b2a9a45c5ee61cfe8a41773ece --enable
 ```

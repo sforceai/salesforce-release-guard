@@ -25,7 +25,7 @@ Generate the final entry with `python scripts/catalog_entry.py --repo https://gi
 1. Use the clean public source repository; keep runtime output and proprietary reports out of it.
 2. Pin the final source commit and validate the packaged plugin against a current Hermes release.
 3. Open the catalog PR. The announcement says an open PR is sufficient to submit; maintainer acceptance remains separate.
-4. Review the prepared 70-second live demo, post it on X tagging `@NousResearch`, and retain its URL.
+4. Review the prepared 88-second narrated demo, post it on X tagging `@NousResearch`, and retain its URL.
 5. Submit the PR and demo URLs through https://form.typeform.com/to/FwJLvOln after checking its entrant/award terms.
 
 Stated announcement deadline: 11 November 2026 at 5pm EST, equivalent to 12 November at 9am Sydney time. Recheck organizer updates before submission. No submission, public post, prize eligibility or payout has been claimed by this kit.

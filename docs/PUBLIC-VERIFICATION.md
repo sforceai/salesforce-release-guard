@@ -1,11 +1,23 @@
 # Clean public release verification
 
-Repository: https://github.com/sforceai/salesforce-guard-release
+Verified 7 November 2026. Repository: https://github.com/sforceai/salesforce-guard-release
 
-Native runtime pin: `bb14a41aa90f68b2a9a45c5ee61cfe8a41773ece`. Current documentation-only commits may retain this runtime pin; the native bundle is byte-identical. The clean history uses the approved company attribution and contains no prior development Git commits. The old development repository remains private.
+Tested runtime pin: `bb14a41aa90f68b2a9a45c5ee61cfe8a41773ece`. Later documentation-only commits retain the same native bundle. [Sanitized receipt](evidence/public-release.json).
 
-Publication was authorized on 7 November 2026. Anonymous clone/installation and registered-tool verification are being run against the public source. Results will be recorded here after completion; publication alone is not proof of a successful install.
+## Installation and execution
 
-The nine native tools are local review capabilities. Conversational use still needs a separately configured AI provider. No live org or deployment is part of this verification. Model-provider usage limits and charges are separate from repository installation.
+- Anonymous installation into two empty short-path profiles passed, including the README profile name. No GitHub credentials were resolved; installation scanning remained enabled. All 64 recorded source hashes matched.
+- Registered native-handler verification passed: 1 new, 2 modified, 1 destructive, 1 unchanged, no unknown changes; 2 before-change callers; 3 allowed, 8 denied, no unknown scoped access checks. Foreign-tool blocking and custom-input approval/revocation checks passed.
+- Official admission validation passed all 15 checks with a safe verdict and no admission warnings, using validator source `65a0cb48510db539442dd56490babbe465acc096`. This used the existing host virtual environment, not a fresh dependency installation. Installer heuristic signals are separate from admission warnings; neither establishes complete security.
+- [Public CI](https://github.com/sforceai/salesforce-guard-release/actions/runs/42312710905) passed all four Windows/Linux Python 3.11/3.12 jobs against documentation commit `d3482bf4d191fb0a87bf9314781196aa03fb2ed1`.
+- A real Hermes CLI conversation using Nous `upstage/solar-mini4:free` called native tools, returned the expected comparison/access counts and both deletion callers, and generated local HTML reports. This used an existing separately authenticated model profile with the tested public runtime. Model availability is independent of anonymous installation.
 
-Historical Desktop/video and test-org receipts predate clean publication; their old commit IDs are not public install pins. No fresh dependency-environment test, catalog acceptance or prize result is claimed.
+## Required host compatibility setting
+
+On the tested Hermes host, deferred plugin tools were routed through generic `tool_call`, which Guard intentionally blocks. Setting `tools.tool_search.enabled` to `off` in the dedicated review profile exposed native schemas directly and allowed the successful conversation. The guard was never disabled or broadened. See [installation](INSTALLATION.md) for the command. This is a verified host configuration, not a claim of compatibility with every Hermes version.
+
+## Privacy and limits
+
+The clean history contains only approved `info@sforce.ai` attribution; prior development commits are excluded. An anonymous mirror audit found no configured private-data candidates or forbidden runtime/media paths. The old repository remains private. Raw host logs, model sessions, credentials, local paths and branded media are not published.
+
+No live Salesforce connection, deployment or customer data was used in this public verification. Arbitrary deep Windows paths remain unsupported by this evidence; use the documented short-path route. Historical recordings predate this publication. No fresh Desktop recording, catalog acceptance, X post, form submission or prize result is claimed.

@@ -55,7 +55,7 @@ Acceptance criteria:
 
 ## P1: Complete release and hackathon submission readiness
 
-No catalog PR, public submission or demo post has been completed. A 70-second live demo with Indian English synthetic narration and fictional screenshots has been prepared at the user's request. An isolated authenticated native install passed; anonymous public installation still requires publication approval and final-pin verification.
+No catalog PR or demo post has been submitted. An 88-second narrated demo is prepared separately; branded media is excluded from this source repository. Anonymous public installation, native-tool verification and four public CI jobs passed. See [public verification](PUBLIC-VERIFICATION.md).
 
 Acceptance criteria:
 - Publish the audited source and confirm remote CI results.

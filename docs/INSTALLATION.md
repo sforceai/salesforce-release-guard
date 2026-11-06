@@ -8,13 +8,22 @@ hermes profile create salesforce-guard-review --no-alias --no-skills
 
 Use that dedicated profile with no live org credentials or competing policy hooks. Configure an AI provider separately for conversational use. Provider charges and usage limits apply; the plugin itself requires no paid scanner or Salesforce connection for the fictional demo.
 
-One install command, pinned to the tested development version:
+One install command, pinned to the tested public runtime:
 
 ```text
 hermes --profile salesforce-guard-review plugins install https://github.com/sforceai/salesforce-guard-release#hermes-plugin --ref bb14a41aa90f68b2a9a45c5ee61cfe8a41773ece --enable
 ```
 
 Desktop's Install from Git accepts the same repository fragment. Select the review profile and a reviewed full commit. This release repository is public and should clone without GitHub authentication. Model sign-in is separate and profile-specific.
+
+
+For Hermes versions that defer plugin tools behind `tool_call`, expose the native schemas directly in this dedicated profile:
+
+```console
+hermes --profile salesforce-guard-review config set tools.tool_search.enabled off
+```
+
+This changes tool presentation, not Guard permissions. The restriction hook stays enabled; generic execution bridges and foreign tools remain blocked. Restart the chat after changing this setting.
 
 Open the review profile after installation, then paste this demo request:
 

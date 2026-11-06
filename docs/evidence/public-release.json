@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-07",
+  "repository": "https://github.com/sforceai/salesforce-guard-release",
+  "runtime_sha": "bb14a41aa90f68b2a9a45c5ee61cfe8a41773ece",
+  "anonymous_install": {
+    "passed": true,
+    "github_credentials_used": false,
+    "installer_scanning_enabled": true,
+    "source_hashes_verified": 64
+  },
+  "native_checks": {
+    "passed": true,
+    "comparison": {
+      "new": 1,
+      "modified": 2,
+      "destructive": 1,
+      "unchanged": 1,
+      "unknown": 0
+    },
+    "deletion_callers": 2,
+    "access": {
+      "allowed": 3,
+      "denied": 8,
+      "unknown": 0
+    },
+    "foreign_tool_block_and_approval_lifecycle": "passed"
+  },
+  "official_admission": {
+    "passed": 15,
+    "verdict": "safe",
+    "warnings": [],
+    "validator_sha": "65a0cb48510db539442dd56490babbe465acc096",
+    "fresh_dependency_environment": false
+  },
+  "public_ci": {
+    "url": "https://github.com/sforceai/salesforce-guard-release/actions/runs/42312710905",
+    "source_sha": "d3482bf4d191fb0a87bf9314781196aa03fb2ed1",
+    "passed_jobs": 4
+  },
+  "conversation": {
+    "passed": true,
+    "provider": "nous",
+    "model": "upstage/solar-mini4:free",
+    "direct_native_schemas": "tools.tool_search.enabled=off",
+    "guard_enabled": true,
+    "comparison_and_access_reports_created": true
+  },
+  "privacy": {
+    "clean_history": true,
+    "approved_commit_email": "info@sforce.ai",
+    "old_history_excluded": true,
+    "proprietary_assets_included": false
+  }
+}

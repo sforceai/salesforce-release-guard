@@ -18,7 +18,7 @@ On the computer holding your local captures, install Python 3.10+ and Salesforce
 
 ```console
 git clone https://github.com/sforceai/salesforce-guard-release.git
-cd salesforce-guard
+cd salesforce-guard-release
 git checkout bb14a41aa90f68b2a9a45c5ee61cfe8a41773ece
 python -m salesforce_guard --help
 ```
