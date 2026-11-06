@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Fictional scope template. Replace API names with your own explicit context. -->
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+  <types><members>ExpenseService</members><members>ExpensePolicy</members><members>OldExpenseUtility</members><members>ExistingExpenseCaller</members><members>KeepExpenseHelper</members><members>UnchangedExpenseHelper</members><name>ApexClass</name></types>
+  <types><members>ExampleExpenseReviewer</members><name>PermissionSet</name></types>
+  <version>67.0</version>
+</Package>

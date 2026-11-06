@@ -1,0 +1,12 @@
+{
+  "schema": "sfg.snapshot.v1",
+  "namespace": "",
+  "complete_types": [
+    "ApexClass",
+    "PermissionSet"
+  ],
+  "provenance": {
+    "kind": "fictional_fixture",
+    "role": "source"
+  }
+}

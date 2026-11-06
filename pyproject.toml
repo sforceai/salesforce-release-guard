@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68,<81"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hermes-salesforce-guard"
+version = "0.4.3"
+description = "Salesforce release-impact and scoped-access review with approved native inputs"
+requires-python = ">=3.10"
+dependencies = []
+license = "MIT"
+
+[project.scripts]
+salesforce-guard = "salesforce_guard.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["salesforce_guard*"]

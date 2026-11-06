@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Metadata fragment for scanning only. Not a deployable Flow. -->
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata"><apiVersion>67.0</apiVersion><label>Fictional expense review</label><processType>Flow</processType><runInMode>SystemModeWithoutSharing</runInMode><status>Draft</status></Flow>

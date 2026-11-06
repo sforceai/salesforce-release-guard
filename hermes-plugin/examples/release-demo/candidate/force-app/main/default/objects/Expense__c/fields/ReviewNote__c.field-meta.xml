@@ -1,0 +1,1 @@
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata"><fullName>ReviewNote__c</fullName><label>Fictional review note</label><type>Text</type><length>80</length></CustomField>

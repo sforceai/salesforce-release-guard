@@ -1,0 +1,19 @@
+name: salesforce-guard
+version: "0.4.3"
+description: Salesforce release-impact and scoped-access review with approved inputs and a restricted Hermes profile.
+requires_hermes: ">=0.21.2"
+license: MIT
+tags: [salesforce, security, sast, owasp]
+provides_tools:
+  - sfg_scan
+  - sfg_demo
+  - sfg_report
+  - sfg_policy
+  - sfg_impact
+  - sfg_compare
+  - sfg_compare_demo
+  - sfg_changes
+  - sfg_access
+provides_hooks:
+  - pre_tool_call
+requires_env: []

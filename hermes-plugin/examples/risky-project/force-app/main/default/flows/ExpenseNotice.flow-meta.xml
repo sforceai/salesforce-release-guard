@@ -1,0 +1,10 @@
+<!-- Fictional metadata fragment for dependency analysis, not a deployable Flow. -->
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+  <apiVersion>67.0</apiVersion><label>Example expense notice</label><processType>AutoLaunchedFlow</processType><status>Active</status><runInMode>SystemModeWithSharing</runInMode>
+  <start><object>Expense__c</object><recordTriggerType>Update</recordTriggerType><triggerType>RecordAfterSave</triggerType>
+    <filters><field>Approved__c</field><operator>EqualTo</operator><value><booleanValue>true</booleanValue></value></filters>
+    <scheduledPaths><name>Send_Later</name><connector><targetReference>Prepare_Notice</targetReference></connector><offsetNumber>1</offsetNumber><offsetUnit>Minutes</offsetUnit></scheduledPaths>
+  </start>
+  <actionCalls><name>Prepare_Notice</name><actionName>ExpenseNotifier</actionName><actionType>apex</actionType><flowTransactionModel>CurrentTransaction</flowTransactionModel><faultConnector><targetReference>Record_Notice_Failure</targetReference></faultConnector></actionCalls>
+  <recordCreates><name>Record_Notice_Failure</name><object>ExpenseAudit__c</object></recordCreates>
+</Flow>

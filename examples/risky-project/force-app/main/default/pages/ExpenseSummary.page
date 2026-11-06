@@ -1,0 +1,2 @@
+<!-- Fictional scanner fixture. Do not deploy. -->
+<apex:page><apex:outputText value="{!$CurrentPage.parameters.summary}" escape="false" /></apex:page>

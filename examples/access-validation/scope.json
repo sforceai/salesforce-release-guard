@@ -1,0 +1,12 @@
+{
+  "objects": [
+    "SFGAccessExample__c"
+  ],
+  "fields": [
+    "SFGAccessExample__c.PublicNote__c",
+    "SFGAccessExample__c.SensitiveNote__c"
+  ],
+  "classes": [
+    "SFGExampleReviewService"
+  ]
+}
