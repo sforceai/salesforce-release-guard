@@ -69,7 +69,7 @@ First create an empty review profile with `hermes profile create salesforce-guar
 For recent Hermes clients, also run `hermes --profile salesforce-guard-review config set tools.tool_search.enabled off` so the model calls the native tools directly. Guard remains enabled. See [installation](docs/INSTALLATION.md).
 
 ```console
-hermes --profile salesforce-guard-review plugins install https://github.com/sforceai/salesforce-guard-release#hermes-plugin --ref bb14a41aa90f68b2a9a45c5ee61cfe8a41773ece --enable
+hermes --profile salesforce-guard-review plugins install https://github.com/sforceai/salesforce-release-guard#hermes-plugin --ref bb14a41aa90f68b2a9a45c5ee61cfe8a41773ece --enable
 ```
 
 This public repository has a clean publication history attributed to the approved company contact. The command pins the reviewed native runtime; later documentation-only commits may retain this tested runtime pin. Public installation verification is recorded in [PUBLIC-VERIFICATION.md](docs/PUBLIC-VERIFICATION.md). Do not install the development repository root as a native plugin; it includes adversarial tests and operator utilities. See [installation and verification details](docs/INSTALLATION.md).

@@ -12,7 +12,7 @@ The official [catalog admission guide](https://hermes-agent.nousresearch.com/doc
 
 The official Typeform at https://form.typeform.com/to/FwJLvOln opened with the hackathon title and a six-question submission flow. Its first required field is Plugin Title. No answers were entered or submitted. Later required fields and entrant/award terms were not inspected because navigation required an answer first.
 
-The clean publication repository is `sforceai/salesforce-guard-release`. The old development repository remains private. See [public verification](PUBLIC-VERIFICATION.md) for current results; older development pins in this document are historical receipt identifiers.
+The clean publication repository is `sforceai/salesforce-release-guard`. The old development repository remains private. See [public verification](PUBLIC-VERIFICATION.md) for current results; older development pins in this document are historical receipt identifiers.
 
 ## Announcement requirements: provenance matters
 

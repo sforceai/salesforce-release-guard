@@ -11,7 +11,7 @@ Use that dedicated profile with no live org credentials or competing policy hook
 One install command, pinned to the tested public runtime:
 
 ```text
-hermes --profile salesforce-guard-review plugins install https://github.com/sforceai/salesforce-guard-release#hermes-plugin --ref bb14a41aa90f68b2a9a45c5ee61cfe8a41773ece --enable
+hermes --profile salesforce-guard-review plugins install https://github.com/sforceai/salesforce-release-guard#hermes-plugin --ref bb14a41aa90f68b2a9a45c5ee61cfe8a41773ece --enable
 ```
 
 Desktop's Install from Git accepts the same repository fragment. Select the review profile and a reviewed full commit. This release repository is public and should clone without GitHub authentication. Model sign-in is separate and profile-specific.

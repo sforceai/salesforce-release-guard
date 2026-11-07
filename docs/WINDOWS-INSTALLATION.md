@@ -9,7 +9,7 @@ In PowerShell, choose a short folder you can write. This example uses a new home
 ```powershell
 $env:HERMES_HOME = Join-Path $env:LOCALAPPDATA 'HG'
 hermes profile create review --no-alias --no-skills
-hermes --profile review plugins install https://github.com/sforceai/salesforce-guard-release#hermes-plugin --ref bb14a41aa90f68b2a9a45c5ee61cfe8a41773ece --enable
+hermes --profile review plugins install https://github.com/sforceai/salesforce-release-guard#hermes-plugin --ref bb14a41aa90f68b2a9a45c5ee61cfe8a41773ece --enable
 ```
 
 Keep using that home when opening the profile. This is a separate environment, not a migration of existing settings or credentials. Configure its AI provider normally if you want a conversational demo. This release repository is public; GitHub authentication is not required for cloning it.
